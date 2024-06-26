@@ -1,0 +1,81 @@
+.user_info {
+    background-color: #ffff;
+    box-shadow: 0 40px 60px rgba(0, 0, 0,0.1);
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 270px;
+    height: 200; 
+    margin-top: 100px;
+    position: fixed;
+    top: -20px;
+    right: 10px;
+
+    /* position: relative;Độ rộng của khung thông tin người dùng */
+  }
+  
+  .avatar {
+    background-color: #ff9727;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .close_icon{
+    position: absolute;
+    top: 9px;
+    right: 9px;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .close_icon i{
+    color: black;
+  }
+  
+  .avatar i {
+    font-size: 24px;
+  }
+  
+  .user_details {
+    margin-left: 15px; 
+    gap: 1rem;/* Khoảng cách giữa avatar và chi tiết người dùng */
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-size: 10px;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .user_email {
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  button#logout_btn {
+    background-color: transparent;
+    border: 1px solid #ff9727;
+    color: #ff9727;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  button#logout_btn:hover {
+    background-color: #ff9727;
+    color: #fff;
+  }
+  
+  button#logout_btn:focus {
+    outline: none;
+  }

@@ -1,0 +1,30 @@
+.home_products_new_list_2 .home_products_new_list{
+    display: grid;
+    grid-template-columns: repeat(4,6fr);
+    gap: 2rem;
+}
+.pahination{
+    display: flex;
+    column-gap: 0.625rem;
+    margin-top: 2.75rem;
+    padding: 0 100px;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.pahination_link{
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    border-radius: 0.25rem;
+    color: black;
+    font-size: 13px;
+    
+    
+}
+.pahination_link.active,.pagination_link:hover{
+    border: 2px solid rgb(0, 0.2,0);
+    
+}
